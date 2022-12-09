@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="com.silabs.module.additional.pdm.com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904" propertyScope="project" contentRoot=".">
+  <folder name="emlib" partCompatibility=".*efr32.*">
+    <file name="system_efr32mg21.c" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG21/Source/system_efr32mg21.c"/>
+  </folder>
+  <folder name="hal-config">
+    <file name="hal-config.h" uri="studio:/project/hal-config/hal-config.h"/>
+  </folder>
+  <folder name="external-generated-files">
+    <file name="bootloader-interface.c" uri="studio:/sdk/platform/base/hal/micro/cortexm3/efm32/bootloader-interface.c"/>
+    <file name="bootloader-interface-standalone.c" uri="studio:/sdk/platform/base/hal/micro/cortexm3/efm32/bootloader-interface-standalone.c"/>
+    <file name="btl_interface.c" uri="studio:/sdk/platform/bootloader/api/btl_interface.c"/>
+  </folder>
+  <file name="ncp-bookkeeping.h" uri="studio:/project/ncp-bookkeeping.h"/>
+  <file name="ncp-bookkeeping.c" uri="studio:/project/ncp-bookkeeping.c"/>
+  <file name="ncp-events.c" uri="studio:/project/ncp-events.c"/>
+  <file name="ezsp-command-handler.c" uri="studio:/project/ezsp-command-handler.c"/>
+  <file name="custom_efr32mg21a010f512im32.hwconf" uri="studio:/project/custom_efr32mg21a010f512im32.hwconf"/>
+  <file name="ncp-token.h" uri="studio:/project/ncp-token.h"/>
+  <file name="ncp-mfg-token.h" uri="studio:/project/ncp-mfg-token.h"/>
+  <file name="mbedtls-config-generated.h" uri="studio:/project/mbedtls-config-generated.h"/>
+  <file name="ncp-callbacks.h" uri="studio:/project/ncp-callbacks.h"/>
+  <file name="ncp-callback-stubs.c" uri="studio:/project/ncp-callback-stubs.c"/>
+  <file name="ncp-callbacks.c" uri="studio:/project/ncp-callbacks.c"/>
+  <file name="ncp-configuration.h" uri="studio:/project/ncp-configuration.h"/>
+  <file name="ncp-uart-hw-prebuild.py" uri="studio:/project/ncp-uart-hw-prebuild.py"/>
+  <file name="ncp-uart-hw-postbuild.py" uri="studio:/project/ncp-uart-hw-postbuild.py"/>
+  <file name="ncp-uart-hw.mak" uri="studio:/project/ncp-uart-hw.mak"/>
+  <file name="ncp-uart-hw-postbuild.bat" uri="studio:/project/ncp-uart-hw-postbuild.bat"/>
+  <file name="ncp-uart-hw-prebuild.bat" uri="studio:/project/ncp-uart-hw-prebuild.bat"/>
+  <includePath uri="studio:/project/"/>
+  <includePath uri="studio:/project/hal-config"/>
+  <includePath uri="studio:/project/external-generated-files"/>
+  <includePath uri="studio:/sdk/platform/base/hal/micro/cortexm3/efm32"/>
+  <includePath uri="studio:/sdk/platform/bootloader/api"/>
+  <includePath languageCompatibility="c asm" uri="studio:/sdk/protocol/zigbee/"/>
+  <includePath languageCompatibility="c asm" uri="studio:/sdk/protocol/zigbee/stack"/>
+  <includePath languageCompatibility="c asm" uri="studio:/sdk/protocol/zigbee/app/util"/>
+  <includePath partCompatibility=".*efr32.*" languageCompatibility="c asm" uri="studio:/sdk/platform/Device/SiliconLabs-Restricted/EFR32MG21/Include"/>
+  <includePath partCompatibility=".*efr32.*" languageCompatibility="c asm" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG21/Include"/>
+  <includePath partCompatibility=".*ember.*" languageCompatibility="c asm" uri="studio:/sdk/platform/Device/SiliconLabs/efr32mg21/Include"/>
+  <includePath uri="studio:/sdk/platform/bootloader"/>
+  <includePath uri="studio:/sdk/platform/emdrv/nvm3/inc"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/chip/efr32/efr32xg2x"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/common"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/plugin/coexistence/common"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/plugin/coexistence/hal/efr32"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/plugin/coexistence/protocol/ieee802154"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/protocol/ble"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/protocol/ieee802154"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/protocol/zwave"/>
+  <includePath uri="studio:/sdk/platform/service/mpu/inc"/>
+  <includePath uri="studio:/sdk/util/plugin/plugin-common/mbedtls"/>
+  <includePath uri="studio:/sdk/util/third_party/mbedtls"/>
+  <includePath uri="studio:/sdk/util/third_party/mbedtls/include"/>
+  <includePath uri="studio:/sdk/util/third_party/mbedtls/include/mbedtls"/>
+  <includePath uri="studio:/sdk/util/third_party/mbedtls/sl_crypto/include"/>
+  <includePath uri="studio:/sdk/util/third_party/mbedtls/sl_crypto/src/cryptoacc/include"/>
+  <includePath uri="studio:/sdk/util/third_party/mbedtls/sl_crypto/src/cryptoacc/src"/>
+  <includePath uri="studio:/sdk/util/third_party/segger/systemview/Config"/>
+  <includePath uri="studio:/sdk/util/third_party/segger/systemview/SEGGER"/>
+  <macroDefinition languageCompatibility="c asm" name="SERIAL_UART_BTL" value="1"/>
+  <macroDefinition languageCompatibility="c asm" name="CONFIGURATION_HEADER" value="&quot;ncp-configuration.h&quot;"/>
+  <macroDefinition partCompatibility=".*ember.*" languageCompatibility="c asm" name="CORTEXM3_EFR32MG21A010F512IM32" value="1"/>
+  <macroDefinition partCompatibility=".*ember.*" languageCompatibility="c asm" name="CORTEXM3_EFR32MG21A010F512IM32_MICRO" value="1"/>
+  <macroDefinition languageCompatibility="c asm" name="PLATFORM_HEADER" value="&quot;platform/base/hal/micro/cortexm3/compiler/gcc.h&quot;"/>
+  <macroDefinition partCompatibility=".*efr32.*" languageCompatibility="c asm" name="EFR32MG21" value="1"/>
+  <macroDefinition partCompatibility=".*efr32.*" languageCompatibility="c asm" name="EFR32MG21A010F512IM32" value="1"/>
+  <macroDefinition partCompatibility=".*efr32.*" languageCompatibility="c asm" name="EFR32_SERIES2_CONFIG1_MICRO" value="1"/>
+  <macroDefinition languageCompatibility="c asm" name="LOCKBITS_IN_MAINFLASH_SIZE" value="8192"/>
+  <macroDefinition languageCompatibility="c asm" name="PSSTORE_SIZE" value="0"/>
+  <macroDefinition languageCompatibility="c asm" name="LONGTOKEN_SIZE" value="0"/>
+  <macroDefinition name="HAL_CONFIG" value="1"/>
+  <macroDefinition name="EMBER_AF_USE_HWCONF" value=""/>
+  <macroDefinition name="EMBER_AF_NCP" value=""/>
+  <macroDefinition name="EMBER_STACK_ZIGBEE" value=""/>
+  <macroDefinition name="EMBER_AF_API_NEIGHBOR_HEADER" value="&quot;stack/include/stack-info.h&quot;"/>
+  <macroDefinition name="USE_NVM3" value=""/>
+  <macroDefinition name="NVM3_DEFAULT_NVM_SIZE" value="NVM3_FLASH_PAGES*FLASH_PAGE_SIZE"/>
+  <macroDefinition name="EZSP_UART" value=""/>
+  <macroDefinition name="NO_USB" value=""/>
+  <macroDefinition name="MBEDTLS_CONFIG_FILE" value="&quot;mbedtls-config-generated.h&quot;"/>
+  <macroDefinition name="EMLIB_USER_CONFIG" value=""/>
+  <macroDefinition name="EMBER_SERIAL1_MODE" value="EMBER_SERIAL_BUFFER"/>
+  <macroDefinition name="EMBER_SERIAL1_TX_QUEUE_SIZE" value="2"/>
+  <macroDefinition name="EMBER_SERIAL1_RX_QUEUE_SIZE" value="64"/>
+  <macroDefinition name="EMBER_SERIAL1_RTSCTS" value=""/>
+  <macroDefinition name="EMBER_SERIAL0_MODE" value="EMBER_SERIAL_FIFO"/>
+  <macroDefinition name="EMBER_SERIAL0_TX_QUEUE_SIZE" value="64"/>
+  <macroDefinition name="EMBER_SERIAL0_RX_QUEUE_SIZE" value="64"/>
+  <macroDefinition name="APPLICATION_TOKEN_HEADER" value="&quot;ncp-token.h&quot;"/>
+  <macroDefinition name="APPLICATION_MFG_TOKEN_HEADER" value="&quot;ncp-mfg-token.h&quot;"/>
+  <macroDefinition name="MBEDTLS_DEVICE_ACCELERATION_CONFIG_FILE" value="&quot;configs/config-device-acceleration.h&quot;"/>
+  <macroDefinition name="MBEDTLS_DEVICE_ACCELERATION_CONFIG_APP_FILE" value="&quot;config-device-acceleration-app.h&quot;"/>
+  <macroDefinition name="NVM3_FLASH_PAGES" value="4"/>
+  <macroDefinition name="NVM3_DEFAULT_CACHE_SIZE" value="200"/>
+  <macroDefinition name="NVM3_DEFAULT_MAX_OBJECT_SIZE" value="254"/>
+  <macroDefinition name="NVM3_DEFAULT_REPACK_HEADROOM" value="0"/>
+  <macroDefinition name="PHY_RAIL" value="1"/>
+  <toolOption toolId="iar.arm.toolchain.linker.v5.4.0" optionId="iar.arm.toolchain.linker.option.configSymbolDefs.v6.2.0">
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="SERIAL_UART_BTL=1"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value=""/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="FLASH_SIZE=524288"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="RAM_SIZE=65536"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="SIMEEPROM_SIZE=32768"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="LOCKBITS_IN_MAINFLASH_SIZE=8192"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="EMBER_MALLOC_HEAP_SIZE=0"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="HEADER_SIZE=512"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="PSSTORE_SIZE=0"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="LONGTOKEN_SIZE=0"/>
+    <toolListOption partCompatibility=".*efr32.*" value="BTL_SIZE=16384"/>
+  </toolOption>
+  <toolOption partCompatibility=".*efr32.*" toolId="iar.arm.toolchain.linker.v5.4.0" optionId="iar.arm.toolchain.linker.option.icfFile.v5.4.0" value="${StudioSdkPath}/platform/base/hal/micro/cortexm3/efm32/iar-cfg.icf"/>
+  <toolOption partCompatibility=".*efr32.*" toolId="iar.arm.toolchain.linker.v5.4.0" optionId="iar.arm.toolchain.linker.option.programEntry.v5.4.0" value="__iar_program_start"/>
+  <toolOption partCompatibility=".*ember.*" toolId="iar.arm.toolchain.linker.v5.4.0" optionId="iar.arm.toolchain.linker.option.icfFile.v5.4.0" value="C:/SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.7/platform/base/hal/micro/cortexm3/em35x/efr32mg21a010f512im32/iar-cfg.icf"/>
+  <toolOption toolId="iar.arm.toolchain.compiler.v5.4.1" optionId="iar.arm.toolchain.compiler.option.additionalUserOptions" value="--no_path_in_file_macros --separate_cluster_for_initialized_variables "/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.script" value="${StudioSdkPath}/platform/base/hal/micro/cortexm3/efm32/gcc-cfg.ld"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="gnu.c.link.option.other">
+    <toolListOption partCompatibility=".*efr32.*" value="--defsym=FLASH_SIZE=524288"/>
+    <toolListOption partCompatibility=".*efr32.*" value="--defsym=RAM_SIZE=65536"/>
+    <toolListOption partCompatibility=".*efr32.*" value="--defsym=FLASH_PAGE_SIZE=8192"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="--defsym=SIMEEPROM_SIZE=32768"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="--defsym=PSSTORE_SIZE=0"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="--defsym=LONGTOKEN_SIZE=0"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="--defsym=HEADER_SIZE=512"/>
+    <toolListOption partCompatibility=".*efr32.*" value="--defsym=BTL_SIZE=16384"/>
+    <toolListOption partCompatibility=".*efr32.*" value="--defsym=LOCKBITS_IN_MAINFLASH_SIZE=8192"/>
+    <toolListOption partCompatibility=".*efr32.*" value="--defsym=SERIAL_UART_BTL=1"/>
+    <toolListOption partCompatibility=".*efr32.*" value="--defsym=EMBER_MALLOC_HEAP_SIZE=0"/>
+    <toolListOption partCompatibility=".*efr32.*" value=""/>
+  </toolOption>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="gnu.c.link.option.userobjs">
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-security-library-cortexm3-gcc-efr32mg21-rail/ncp-security-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-ash-buffers-rts-cts-library-cortexm3-gcc-efr32mg21-rail/ncp-ash-buffers-rts-cts-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-gp-library-cortexm3-gcc-efr32mg21-rail/ncp-gp-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/em260-xncp-stub-library-cortexm3-gcc-efr32mg21-rail/em260-xncp-stub-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/cbke-library-dsa-verify-283k1-stub-cortexm3-gcc-efr32mg21-rail/cbke-library-dsa-verify-283k1-stub.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/cbke-stub-library-cortexm3-gcc-efr32mg21-rail/cbke-stub-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/debug-extended-library-cortexm3-gcc-efr32mg21-rail/debug-extended-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/zigbee-pro-stack-cortexm3-gcc-efr32mg21-rail/zigbee-pro-stack.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-mfglib-library-cortexm3-gcc-efr32mg21-rail/ncp-mfglib-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/binding-table-library-cortexm3-gcc-efr32mg21-rail/binding-table-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/install-code-library-cortexm3-gcc-efr32mg21-rail/install-code-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-pro-library-cortexm3-gcc-efr32mg21-rail/ncp-pro-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/security-library-link-keys-cortexm3-gcc-efr32mg21-rail/security-library-link-keys.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/hal-library-cortexm3-gcc-efr32mg21-rail/hal-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/cbke-283k1-stub-library-cortexm3-gcc-efr32mg21-rail/cbke-283k1-stub-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/cbke-library-dsa-verify-stub-cortexm3-gcc-efr32mg21-rail/cbke-library-dsa-verify-stub.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/mfglib-library-cortexm3-gcc-efr32mg21-rail/mfglib-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-binding-library-cortexm3-gcc-efr32mg21-rail/ncp-binding-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/source-route-library-cortexm3-gcc-efr32mg21-rail/source-route-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/debug-basic-library-cortexm3-gcc-efr32mg21-rail/debug-basic-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/multi-network-stub-library-cortexm3-gcc-efr32mg21-rail/multi-network-stub-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-source-route-library-cortexm3-gcc-efr32mg21-rail/ncp-source-route-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/cbke-library-dsa-sign-stub-cortexm3-gcc-efr32mg21-rail/cbke-library-dsa-sign-stub.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/zll-library-cortexm3-gcc-efr32mg21-rail/zll-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/end-device-bind-library-cortexm3-gcc-efr32mg21-rail/end-device-bind-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/packet-validate-library-cortexm3-gcc-efr32mg21-rail/packet-validate-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/em260-uart-util-library-cortexm3-gcc-efr32mg21-rail/em260-uart-util-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/zigbee-r22-support-stub-library-cortexm3-gcc-efr32mg21-rail/zigbee-r22-support-stub-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/gp-library-cortexm3-gcc-efr32mg21-rail/gp-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/platform/radio/rail_lib/autogen/librail_release/librail_efr32xg21_gcc_release.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/sim-eeprom2-to-nvm3-upgrade-stub-library-cortexm3-gcc-efr32mg21-rail/sim-eeprom2-to-nvm3-upgrade-stub-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-zll-library-cortexm3-gcc-efr32mg21-rail/ncp-zll-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-cbke-library-cortexm3-gcc-efr32mg21-rail/ncp-cbke-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/cbke-163k1-stub-library-cortexm3-gcc-efr32mg21-rail/cbke-163k1-stub-library.a"/>
+  </toolOption>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker" optionId="gnu.cpp.link.option.userobjs">
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-security-library-cortexm3-gcc-efr32mg21-rail/ncp-security-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-ash-buffers-rts-cts-library-cortexm3-gcc-efr32mg21-rail/ncp-ash-buffers-rts-cts-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-gp-library-cortexm3-gcc-efr32mg21-rail/ncp-gp-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/em260-xncp-stub-library-cortexm3-gcc-efr32mg21-rail/em260-xncp-stub-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/cbke-library-dsa-verify-283k1-stub-cortexm3-gcc-efr32mg21-rail/cbke-library-dsa-verify-283k1-stub.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/cbke-stub-library-cortexm3-gcc-efr32mg21-rail/cbke-stub-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/debug-extended-library-cortexm3-gcc-efr32mg21-rail/debug-extended-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/zigbee-pro-stack-cortexm3-gcc-efr32mg21-rail/zigbee-pro-stack.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-mfglib-library-cortexm3-gcc-efr32mg21-rail/ncp-mfglib-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/binding-table-library-cortexm3-gcc-efr32mg21-rail/binding-table-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/install-code-library-cortexm3-gcc-efr32mg21-rail/install-code-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-pro-library-cortexm3-gcc-efr32mg21-rail/ncp-pro-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/security-library-link-keys-cortexm3-gcc-efr32mg21-rail/security-library-link-keys.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/hal-library-cortexm3-gcc-efr32mg21-rail/hal-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/cbke-283k1-stub-library-cortexm3-gcc-efr32mg21-rail/cbke-283k1-stub-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/cbke-library-dsa-verify-stub-cortexm3-gcc-efr32mg21-rail/cbke-library-dsa-verify-stub.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/mfglib-library-cortexm3-gcc-efr32mg21-rail/mfglib-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-binding-library-cortexm3-gcc-efr32mg21-rail/ncp-binding-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/source-route-library-cortexm3-gcc-efr32mg21-rail/source-route-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/debug-basic-library-cortexm3-gcc-efr32mg21-rail/debug-basic-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/multi-network-stub-library-cortexm3-gcc-efr32mg21-rail/multi-network-stub-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-source-route-library-cortexm3-gcc-efr32mg21-rail/ncp-source-route-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/cbke-library-dsa-sign-stub-cortexm3-gcc-efr32mg21-rail/cbke-library-dsa-sign-stub.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/zll-library-cortexm3-gcc-efr32mg21-rail/zll-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/end-device-bind-library-cortexm3-gcc-efr32mg21-rail/end-device-bind-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/packet-validate-library-cortexm3-gcc-efr32mg21-rail/packet-validate-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/em260-uart-util-library-cortexm3-gcc-efr32mg21-rail/em260-uart-util-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/zigbee-r22-support-stub-library-cortexm3-gcc-efr32mg21-rail/zigbee-r22-support-stub-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/gp-library-cortexm3-gcc-efr32mg21-rail/gp-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/platform/radio/rail_lib/autogen/librail_release/librail_efr32xg21_gcc_release.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/sim-eeprom2-to-nvm3-upgrade-stub-library-cortexm3-gcc-efr32mg21-rail/sim-eeprom2-to-nvm3-upgrade-stub-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-zll-library-cortexm3-gcc-efr32mg21-rail/ncp-zll-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/ncp-cbke-library-cortexm3-gcc-efr32mg21-rail/ncp-cbke-library.a"/>
+    <toolListOption toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 " value="${StudioSdkPath}/protocol/zigbee/build/cbke-163k1-stub-library-cortexm3-gcc-efr32mg21-rail/cbke-163k1-stub-library.a"/>
+  </toolOption>
+  <prebuildStep> cmd //c 'C:\Users\Dungpk\SIMPLI~1\V4_WOR~1\NCP-UA~1/ncp-uart-hw-prebuild.bat' '${BuildArtifactFileBaseName}' '${ProjDirPath}' '${TOOLKIT_DIR}' 'C:\SiliconLabs\SimplicityStudio\v4'</prebuildStep>
+  <postbuildStep> cmd //c 'C:\Users\Dungpk\SIMPLI~1\V4_WOR~1\NCP-UA~1/ncp-uart-hw-postbuild.bat' '${BuildArtifactFileBaseName}' '${ProjDirPath}' '${TOOLKIT_DIR}' 'C:\SiliconLabs\SimplicityStudio\v4'</postbuildStep>
+</project>

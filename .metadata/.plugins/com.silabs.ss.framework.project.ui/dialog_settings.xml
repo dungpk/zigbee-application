@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.silabs.ss.framework.ide.project.core.cdtMbsProjectType">
+		<item value="LINK" key="importOption"/>
+		<list key="fileLocationHistory">
+			<item value="C:\Users\Dungpk\SimplicityStudio\v4_workspace\SW_ZB_V1_0_0"/>
+			<item value="C:\Users\Dungpk\SimplicityStudio\v4_workspace\ZBRouterCLI_V1_0_0_Target"/>
+			<item value="C:\Users\Dungpk\SimplicityStudio\v4_workspace\ZBRouterCLI_V1_0_0_Initiator"/>
+			<item value="C:\Users\Dungpk\SimplicityStudio\v4_workspace\ZBCoordinatorCLI_V1_0_0"/>
+			<item value="C:\Users\Dungpk\SimplicityStudio\v4_workspace\MULTISENSOR_ZB_V1_0_0"/>
+			<item value="C:\Users\Dungpk\Desktop\IOT304x_asm2_dungpkFX13371@funix.edu.vn)-20221103T110615Z-001\IOT304x_asm2_dungpkFX13371@funix.edu.vn)\ZBRouterCLI_V1_0_0_Target"/>
+			<item value="C:\Users\Dungpk\Desktop\IOT304x_asm2_dungpkFX13371@funix.edu.vn)-20221103T110615Z-001\IOT304x_asm2_dungpkFX13371@funix.edu.vn)\ZBRouterCLI_V1_0_0_Initiator"/>
+			<item value="C:\Users\Dungpk\Desktop\IOT304x_asm2_dungpkFX13371@funix.edu.vn)-20221103T110615Z-001\IOT304x_asm2_dungpkFX13371@funix.edu.vn)\ZBCoordinatorCLI_V1_0_0"/>
+			<item value="C:\Users\Dungpk\Desktop\IOT304x_asm1_dungpkFX13371@funix.edu.vn)-20221103T110612Z-001\IOT304x_asm1_dungpkFX13371@funix.edu.vn)\MULTISENSOR_ZB_V1_0_0"/>
+		</list>
+		<list key="fileLocations">
+			<item value="C:\Users\Dungpk\SimplicityStudio\v4_workspace\SW_ZB_V1_0_0"/>
+		</list>
+	</section>
+</section>

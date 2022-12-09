@@ -1,0 +1,4 @@
+protectFromDetectionUpdates=false
+label=Flasher PRO (583651598)
+boardOverrides {
+}

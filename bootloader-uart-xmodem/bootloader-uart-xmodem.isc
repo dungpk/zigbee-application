@@ -1,0 +1,72 @@
+#ISD afv6
+# Simplicity Studio version: 5.20.0.202010151757-46
+
+# Application configuration
+stackId: com.silabs.sdk.stack.super
+stackRoot: C:\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7
+appId: bootloader
+frameworkRoot: platform\bootloader
+architecture: efr32~family[M]~series[2]~device_configuration[1]~performance[A]~radio[010]~flash[512K]~temp[I]~package[M]~pins[32]~!module+none+gcc
+exactArchitectureToolchain: com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904
+deviceName: bootloader-uart-xmodem
+sourceSampleAppId: bootloader-uart-xmodem
+generationDirectory: PATH(ISC_RELATIVE):.
+
+# Devices
+
+# Plugin configuration
+appPlugin: bgapi-uart-dfu=false
+appPlugin: core=true
+appPlugin: crc=true
+appPlugin: crypto=true
+appPlugin: debug=false
+appPlugin: delay-driver=true
+appPlugin: emlib=true
+appPlugin: ezsp-gpio-activation=false
+appPlugin: ezsp-spi=false
+appPlugin: gbl-compression-lz4=false
+appPlugin: gbl-compression-lzma=false
+appPlugin: gpio-activation=true
+appPlugin: internal_flash=false
+appPlugin: mbedtls=true
+appPlugin: parser=true
+appPlugin: parser-eblv2=false
+appPlugin: parser-noenc=false
+appPlugin: spi-driver=false
+appPlugin: spiflash=false
+appPlugin: spislave-driver=false
+appPlugin: storage-common=false
+appPlugin: storage-common-single=false
+appPlugin: token-management=true
+appPlugin: uart-driver=true
+appPlugin: upgrade-version=false
+appPlugin: xmodem-parser=true
+appPlugin: xmodem-uart=true
+
+# Setup configurations
+{setupId:additionalFiles
+}
+{setupId:bootloaderStorage
+}
+{setupId:callbackConfiguration
+}
+{setupId:hwConfig
+lastArchitectureId=efr32~family[M]~series[2]~device_configuration[1]~performance[A]~radio[010]~flash[512K]~temp[I]~package[M]~pins[32]~!module+none+gcc
+featureLevel=1
+active=true
+lastHwConfFileUsed=PATH(ISC_RELATIVE):custom_efr32mg21a010f512im32.hwconf
+}
+{setupId:information
+\{key:description
+
+\}
+}
+{setupId:macros
+}
+{setupId:quizz
+}
+{setupId:template
+--version:2
+}
+
+# Plugin options
